@@ -17,16 +17,5 @@ http
 
       res.end(content);
     });
-
-    // if (req.url === '/') {
-    //   fs.readFile(
-    //     path.join(__dirname, 'public', 'index.html'),
-    //     (err, content) => {
-    //       if (err) throw err;
-
-    //       res.end(content);
-    //     }
-    //   );
-    // }
   })
   .listen(5000, () => console.log('Server is running'));
